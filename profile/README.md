@@ -21,7 +21,7 @@
 
 AI arrived inside organizations faster than anyone could govern it. It came in
 through browsers, desktop apps, developer tools, and agents that act on their
-own — mostly without a security review, and almost always without a record.
+own - mostly without a security review, and almost always without a record.
 
 **Aktail** is a SaaS platform that closes that gap. One place to see how AI is
 really being used across your organization, decide what should be allowed, and
@@ -35,7 +35,7 @@ show your work afterwards.
 
 ### 🔎 See it
 
-A live picture of AI use across your organization — including the parts nobody
+A live picture of AI use across your organization - including the parts nobody
 filed a ticket for.
 
 </td>
@@ -51,7 +51,7 @@ you read next quarter.
 
 ### 🧾 Prove it
 
-A trustworthy record of what was used, what was allowed, and what was stopped —
+A trustworthy record of what was used, what was allowed, and what was stopped -
 ready when someone asks.
 
 </td>
