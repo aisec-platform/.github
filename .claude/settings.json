@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white\")",
+      "Bash(grep -o 'image[^>]\\\\{0,60\\\\}' /tmp/jira.svg)",
+      "Bash(curl -s \"https://img.shields.io/badge/Jira-0052CC?style=for-the-badge\")",
+      "Bash(python -c ' *)",
+      "Bash(gh auth *)",
+      "Bash(curl -s -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer $\\(gh auth token\\)\" https://api.github.com/markdown -d @/tmp/md.json)",
+      "Bash(curl -s -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer $\\(gh auth token\\)\" https://api.github.com/markdown -d @/tmp/md2.json)",
+      "Bash(git commit *)"
+    ]
+  }
+}
