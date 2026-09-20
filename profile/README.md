@@ -1,29 +1,84 @@
 <div align="center">
 
-# Aktail
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aisec-platform/.github/master/profile/assets/aktail-logo-dark.svg">
+  <img alt="Aktail" src="https://raw.githubusercontent.com/aisec-platform/.github/master/profile/assets/aktail-logo-light.svg" width="230">
+</picture>
 
-**Visibility and control over AI usage across your organization.**
+### AI security, in a single pane of glass.
+
+<br>
+
+[![Website](https://img.shields.io/badge/aktail.com-0960F2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://aktail.com)
+[![Request a demo](https://img.shields.io/badge/Request%20a%20demo-061B3C?style=for-the-badge)](mailto:contact-us@aktail.com?subject=Aktail%20demo%20request)
+[![Support](https://img.shields.io/badge/Support-4D8DFF?style=for-the-badge)](mailto:support@aktail.com)
 
 </div>
 
-Platform is an AI security governance platform. It gives security and IT
-teams a single place to monitor, govern, and control how AI is actually
-being used across the organization - endpoints, browsers, IDEs, API
-clients, MCP servers, and agentic tools - instead of finding out after
-the fact.
+---
 
-## What it does
+## Hello 👋
 
-- **Discover** every AI tool, model, and MCP server in use across managed
-  devices - sanctioned or not.
-- **Enforce** data-loss-prevention and usage policies at the point of
-  action, not just in a dashboard.
-- **Verify** the integrity of MCP tool schemas and agentic workflows, so a
-  tool can't silently change behavior after approval.
-- **Prove it** with tamper-evident audit trails suitable for SOC 2 and
-  similar compliance programs.
+AI arrived inside organizations faster than anyone could govern it. It came in
+through browsers, desktop apps, developer tools, and agents that act on their
+own — mostly without a security review, and almost always without a record.
 
-## Get in touch
+**Aktail** is a SaaS platform that closes that gap. One place to see how AI is
+really being used across your organization, decide what should be allowed, and
+show your work afterwards.
 
-Interested in a demo or want to learn more? Reach out to our team.
+<br>
 
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔎 See it
+
+A live picture of AI use across your organization — including the parts nobody
+filed a ticket for.
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Govern it
+
+Your rules, applied where the activity actually happens rather than in a report
+you read next quarter.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧾 Prove it
+
+A trustworthy record of what was used, what was allowed, and what was stopped —
+ready when someone asks.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Want to see it?
+
+We're early, deliberately quiet, and working closely with a small group of
+design partners. If that sounds like you, we'd genuinely like to talk.
+
+| | |
+| :-- | :-- |
+| 🌐 **Website** | [aktail.com](https://aktail.com) |
+| 📬 **Demos and general enquiries** | [contact-us@aktail.com](mailto:contact-us@aktail.com?subject=Aktail%20demo%20request) |
+| 🛟 **Existing customer support** | [support@aktail.com](mailto:support@aktail.com) |
+
+<br>
+
+<div align="center">
+
+**We're heads-down building something we think security teams have been waiting for.**
+
+More soon.
+
+<sub>© Aktail. All rights reserved.</sub>
+
+</div>
