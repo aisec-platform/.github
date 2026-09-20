@@ -1,6 +1,6 @@
 <div align="center">
 
-# Platform
+# Aktail
 
 **Visibility and control over AI usage across your organization.**
 
