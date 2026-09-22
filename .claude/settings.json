@@ -40,7 +40,11 @@
       "Bash(grep -n \"^/\\\\*\\\\*\" vars/buildService.groovy)",
       "Bash(kubectl run *)",
       "Bash(git diff *)",
-      "Bash(awk '$1!=$2 {print \"  ASYMMETRIC: \" $0}')"
+      "Bash(awk '$1!=$2 {print \"  ASYMMETRIC: \" $0}')",
+      "Bash(echo \"admin-ui build exit=$?\")",
+      "Bash(BUILD_STANDALONE=1 npm run build --workspace=msp-portal)",
+      "Bash(echo \"msp-portal build exit=$?\")",
+      "Bash(npm ls *)"
     ],
     "additionalDirectories": [
       "\\tmp",
