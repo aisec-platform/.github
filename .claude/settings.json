@@ -39,7 +39,8 @@
       "Bash(cp /tmp/ui-pkg.bak packages/ui/package.json)",
       "Bash(grep -n \"^/\\\\*\\\\*\" vars/buildService.groovy)",
       "Bash(kubectl run *)",
-      "Bash(git diff *)"
+      "Bash(git diff *)",
+      "Bash(awk '$1!=$2 {print \"  ASYMMETRIC: \" $0}')"
     ],
     "additionalDirectories": [
       "\\tmp",
