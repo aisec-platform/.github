@@ -8,7 +8,42 @@
       "Bash(gh auth *)",
       "Bash(curl -s -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer $\\(gh auth token\\)\" https://api.github.com/markdown -d @/tmp/md.json)",
       "Bash(curl -s -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer $\\(gh auth token\\)\" https://api.github.com/markdown -d @/tmp/md2.json)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "Bash(terraform plan *)",
+      "Bash(export AWS_PROFILE=aktail-marketing-admin)",
+      "Bash(timeout 25 aws sts get-caller-identity)",
+      "Bash(terraform apply *)",
+      "Bash(aws codeartifact *)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code}\\\\n' -H 'Authorization: Bearer __TRACKED_VAR__' __TRACKED_VAR__/lodash)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code}\\\\n' __TRACKED_VAR__/lodash)",
+      "Bash(curl -s -o /dev/null -w 'HTTP %{http_code}\\\\n' -H 'Authorization: Bearer __TRACKED_VAR__' __TRACKED_VAR__/@aktail%2fui)",
+      "Bash(git fetch *)",
+      "Bash(gh pr *)",
+      "Bash(gh api *)",
+      "Bash(command -v docker)",
+      "Bash(kubectl cp *)",
+      "Bash(export AWS_PROFILE=aktail-dev-admin MSYS_NO_PATHCONV=1)",
+      "Bash(git switch *)",
+      "Bash(awk '{ if \\($0 ~ /^components\\\\//\\) print \"  components/* OK  \" $0; else if \\($0 ~ /^lib\\\\//\\) print \"  lib/* OK        \" $0; else print \"  >>> NEEDS ENTRY: \" $0 }')",
+      "Bash(cd \"C:/GitHub/aisec/web\" && sed -i 's|transpilePackages: \\\\[\"ui\", |transpilePackages: [\"@aktail/ui\", |' apps/*/next.config.mjs && grep -n \"transpilePackages:\" apps/*/next.config.mjs)",
+      "Bash(\"C:/GitHub/aisec/web/node_modules/.bin/tailwindcss\" -c ./tw.config.js -i ./in.css -o ./out3.css)",
+      "Bash(node -e \"const c=require\\('./tw.config.js'\\); const r=require\\('C:/GitHub/aisec/web/node_modules/tailwindcss/resolveConfig.js'\\); console.log\\(JSON.stringify\\(r\\(c\\).content,null,2\\)\\)\")",
+      "Bash(BUILD_STANDALONE=1 npm run build --workspace=ai-security-frontend)",
+      "Bash(node packages/ui/scripts/verify-exports.mjs)",
+      "Bash(echo \"exit=$?\")",
+      "Bash(cp packages/ui/package.json /tmp/ui-pkg.bak)",
+      "Bash(node -e \"const f='packages/ui/package.json';const p=JSON.parse\\(require\\('fs'\\).readFileSync\\(f\\)\\);delete p.exports['./lib/*'];require\\('fs'\\).writeFileSync\\(f,JSON.stringify\\(p,null,2\\)\\)\")",
+      "Bash(echo \"  exit=$?\")",
+      "Bash(node -e \"const f='packages/ui/package.json';const p=JSON.parse\\(require\\('fs'\\).readFileSync\\(f\\)\\);p.files=p.files.filter\\(x=>x!=='styles'\\);require\\('fs'\\).writeFileSync\\(f,JSON.stringify\\(p,null,2\\)\\)\")",
+      "Bash(echo \"missing-exports-entry  -> exit=$? \\(must be 1\\)\")",
+      "Bash(cp /tmp/ui-pkg.bak packages/ui/package.json)",
+      "Bash(grep -n \"^/\\\\*\\\\*\" vars/buildService.groovy)",
+      "Bash(kubectl run *)",
+      "Bash(git diff *)"
+    ],
+    "additionalDirectories": [
+      "\\tmp",
+      "C:\\GitHub\\aisec\\web\\apps\\*"
     ]
   }
 }
